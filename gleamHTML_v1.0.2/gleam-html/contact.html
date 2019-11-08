@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Contact - Gleam</title>
+		<title>Contact 2 - Gleam</title>
 		<!-- Google Fonts -->
 		<link rel='stylesheet' id='gleam-font-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i%7CCormorant:400,400i,500,600,700,700i' type='text/css' media='all' />
 		<!-- Bootstrap CSS -->
@@ -19,7 +19,7 @@
 		<link rel="icon" href="images/icons/favicon-192x192.png" sizes="192x192" />
 		<link rel="apple-touch-icon-precomposed" href="images/icons/favicon-180x180.png" />
 	</head>
-	<body class="home">
+	<body class="home no-top-image">
 		<div class="menu-mask"></div>
 		<!-- MOBILE MENU HOLDER -->
 		<div class="mobile-menu-holder">
@@ -235,11 +235,11 @@
 		</header>
 		<!-- /HEADER -->
 		<!-- PAGE TOP -->
-		<div class="top-single-bkg " style="background-image:url('images/top-headers/top-contact.jpg');">
+		<div class="top-single-bkg topnoimg">
 			<div class="inner-desc">
 				<div class="container">
-					<h1 class="post-title single-post-title">Contact</h1>
-					<span class="post-subtitle page-subtitle">Contact us for more information</span>
+					<h1 class="post-title single-post-title">Contact 2</h1>
+					<span class="post-subtitle page-subtitle">We're here to help</span>
 				</div>
 			</div>
 		</div>
@@ -254,22 +254,18 @@
 							<div class="margin-r54">
 								<h2 class="section-title margin-b32">Are you interested to work with me? Get in touch</h2>
 								<p>Lorem ipsum dolor sit amet, eam ex velit postea repudiare, est sale definitiones id. Ut quo quem harum munere, eu labore voluptatum mei, ad epicurei interesset has. Vel dicant conceptam reformidans.</p>
-								<h5>Address:</h5>
-								<p>40 Park Ave, Brooklyn, New York, NY 10000, US</p>
-								<h5>Phone:</h5>
-								<p>+1 800 111 2222</p>
-								<h5>Email:</h5>
-								<p>contact@example.com</p>
 							</div>
 						</div>
 						<!-- /col-lg-6 -->	
 						<div class="col-lg-6">
 							<div id="contact-form-holder">
 								<form method="post" id="contact-form" action='include/contact-process.php'>
-									<div class="margin-b24"><input type="text" name="name" class="comm-field" placeholder="Name" /></div>
-									<div class="margin-b24"><input type="text" name="email" class="comm-field" placeholder="Email" /> </div>
-									<div class="margin-b24"><input type="text" name="subject" class="comm-field" placeholder="Subject" /> </div>
-									<div class="margin-b24"><textarea name="message" id="msg-contact" rows="5" placeholder="Message"></textarea></div>
+									<div class="row margin-b24">
+										<div class="col-md-4 margin-bm24"><input type="text" name="name" class="comm-field" placeholder="Name" /></div>
+										<div class="col-md-4 margin-bm24"><input type="text" name="email" class="comm-field" placeholder="Email" /> </div>
+										<div class="col-md-4"><input type="text" name="subject" class="comm-field" placeholder="Subject" /> </div>
+									</div>
+									<p><textarea name="message" id="msg-contact" rows="5" placeholder="Message"></textarea></p>
 									<p class="antispam">Leave this empty: <input type="text" name="url" /></p>
 									<p><input type="submit" value="Send message" id="submit"/></p>
 								</form>
@@ -285,10 +281,12 @@
 			</section>
 			<!-- /SECTION 1-->
 			<!-- SECTION 2-->
-			<section>
-				<div class="gmaps">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.9762977047603!2d-73.96009086693977!3d40.69651965846399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bc1f922373f%3A0x398427d98fba822e!2sPark+Ave%2C+Brooklyn%2C+NY%2C+USA!5e0!3m2!1sen!2sro!4v1471514814808">
-					</iframe>
+			<section class="section-holder">
+				<div class="container">
+					<div class="gmaps">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.9762977047603!2d-73.96009086693977!3d40.69651965846399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bc1f922373f%3A0x398427d98fba822e!2sPark+Ave%2C+Brooklyn%2C+NY%2C+USA!5e0!3m2!1sen!2sro!4v1471514814808">
+						</iframe>
+					</div>
 				</div>
 			</section>
 			<!-- /SECTION 2-->
