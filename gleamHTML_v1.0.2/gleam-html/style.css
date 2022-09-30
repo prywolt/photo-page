@@ -1122,7 +1122,7 @@ transition: all .3s cubic-bezier(.25,1,.35,1) 0s;
 .no-top-image .social-media li a,
 .social-dark li a,
 .nav-fixed-top .social-media li a{
-	color: #151515;
+	color: #ffffff;
 }
 
 .no-top-image .icon-bar,
